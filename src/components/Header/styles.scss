@@ -1,0 +1,23 @@
+.header {
+  background-color: #f3ca20;
+  color: white;
+  text-align: center;
+  padding: 1rem * 2;
+  &__title {
+    font-size: 2em;
+    margin-bottom: 1rem / 2;
+    font-weight: 700;
+  }
+  &__input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    margin-left: -35px;
+    text-align: right;
+    padding: 0;
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+}
