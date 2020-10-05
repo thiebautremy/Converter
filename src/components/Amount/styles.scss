@@ -1,9 +1,9 @@
 @use 'src/styles/vars';
 
 .amount {
-  background-color: white;
+  background-color: #75bebb;
   text-align: center;
-  padding: 1rem * 2;
+  padding: 1.3rem;
   padding-top: 1rem * 3;
   &__value {
     font-size: 2.2em;

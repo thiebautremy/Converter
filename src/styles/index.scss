@@ -1,11 +1,14 @@
-@use 'reset';
+// @use 'reset';
 
 body {
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Courier Prime', monospace;
   font-weight: 300;
-  color: #f3ca20;
+  margin: 0;
 }
 
 #root {
-  background-color: #000000;
+  width: 100%;
+  background-image: url('../assets/bg.webp');
+  background-position: center;
+  background-size: cover;
 }

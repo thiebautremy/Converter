@@ -10,14 +10,14 @@ const Header = ({ baseAmount, changeBaseAmount }) => {
 
   return (
     <header className="header">
-      <h1 className="header__title">Converter</h1>
+      <h1 className="header__title">Convertisseur</h1>
       <p className="header__base-amount">
         <input
           type="number"
           className="header__input"
           value={baseAmount}
           onChange={handleOnChange}
-        /> euro
+        /> €
       </p>
     </header>
   );

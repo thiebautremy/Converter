@@ -1,23 +1,29 @@
 .header {
-  background-color: #f3ca20;
-  color: white;
+  background-color: #1e847f;
   text-align: center;
-  padding: 1rem * 2;
+  padding: 1.3rem;
   &__title {
     font-size: 2em;
     margin-bottom: 1rem / 2;
     font-weight: 700;
+    color: black;
   }
   &__input {
     border: none;
     background-color: transparent;
+    font-size: 1em;
     color: white;
-    width: 50px;
+    width: 150px;
     margin-left: -35px;
     text-align: right;
     padding: 0;
+    border: 1px solid #ecc19c;
+    border-radius: 5%;
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;
     }
+  }
+  &__base-amount {
+    font-size: 1.8em;
   }
 }

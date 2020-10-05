@@ -1,7 +1,8 @@
 .currencies {
-  background-color: white;
+  background-color: #ecc19c;
   max-height: 300px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   &__title {
     font-weight: 700;
     padding: 1em;
@@ -13,21 +14,27 @@
     font-weight: 700;
     padding: 1em;
     padding-top: 1rem * 1.8;
-    color: #f3ca20;
     font-size: 1.1em;
+    background-color: #75bebb;
+    border-top: 1px solid #ecc19c;
     &::placeholder {
-      color: #f1c5b6;
+      color: rgb(22, 21, 21);
     }
+  }
+  &__list {    
+  list-style: none;
+  padding: 0;
+  margin: 0;
   }
 }
 
 .currency {
   padding: 1em;
-  border-top: 1px solid #f1c5b6;
+  border-top: 1px solid #1e847f;
   font-weight: 500;
   transition: background 1s;
   &:hover {
-    background-color: #f1c5b6;
+    background-color: #1e847f;
     transition: background 0.2s;
     cursor: pointer;
   }
